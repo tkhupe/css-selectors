@@ -67,6 +67,12 @@ footer {
   background-color: #13293d;
   color: #fff;
 }
+ a[href$='.css']::after { 
+   content: '📝';
+   display:inline-block;
+   margin-left:3px;
+
+}
 
 /* TODO: Add code here to select all <a> elements that link to a file with a `.css` extension */
 
